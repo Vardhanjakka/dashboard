@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Student Dashboard</title>
+<link rel="stylesheet" href="Test.css">
+</head>
+<body>
+<div class="main">
+    <header>
+        <h1>Student Management Dashboard</h1>
+        <input type="text" id="search" placeholder="Search student...">
+    </header>
+
+    <div class="card">
+        <h3>Add New Student</h3>
+        <div class="form-group">
+            <input type="text" id="name" placeholder="Student Name">
+            <input type="email" id="email" placeholder="Student Email">
+            <button onclick="addStudent()">Add Student</button>
+        </div>
+    </div>
+
+    <div class="card">
+        <h3>Students List</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody id="studentTable"></tbody>
+        </table>
+    </div>
+</div>
+
+<div id="toast"></div>
+
+<script src="Test.js"></script>
+</body>
+</html>
