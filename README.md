@@ -1,7 +1,7 @@
-# Executive Corporate Landing Page
+# Student Dashboard
 
 ## 📌 Project Overview
-This project is a fully responsive corporate landing page developed using HTML, CSS, and JavaScript.  
+This project is a fully responsive Student dashboard developed using HTML, CSS, and JavaScript.  
 
 The objective of this project is to demonstrate frontend development skills, including responsive layout design, modern UI styling, and client-side data handling using browser storage.
 
@@ -32,11 +32,11 @@ This project was developed as part of a technical evaluation task.
 
 ## 📂 Project Structure
 
-corporate-landing/
+
 │
-├── index.html
-├── style.css
-├── script.js
+├── Test.html
+├── Test.css
+├── Test.js
 └── README.md
 
 ---
